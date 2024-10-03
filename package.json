@@ -1,0 +1,48 @@
+{
+  "name": "typed-re",
+  "version": "1.0.0",
+  "description": "Template literal types for regular expression capturing groups",
+  "type": "module",
+  "module": "dist/typed-re.js",
+  "types": "dist/typed-re.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc",
+    "demo": "node --import tsx demo/demo.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwinm/typed-re.git"
+  },
+  "files": [
+    "src/typed-re.ts",
+    "dist/typed-re.d.ts",
+    "dist/typed-re.js"
+  ],
+  "keywords": [
+    "dom",
+    "qsa",
+    "jquery",
+    "typescript",
+    "front-end",
+    "lightweight",
+    "micro"
+  ],
+  "author": {
+    "name": "Edwin Martin",
+    "email": "edwin@bitstorm.org",
+    "url": "https://bitstorm.org/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edwinm/typed-re/issues"
+  },
+  "homepage": "https://github.com/edwinm/typed-re#readme",
+  "devDependencies": {
+    "tslib": "^2.7.0",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "tsx": "^4.19.1"
+  }
+}
