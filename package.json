@@ -1,6 +1,6 @@
 {
   "name": "typed-re",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Template literal types for regular expression capturing groups",
   "type": "module",
   "module": "dist/typed-re.js",
@@ -20,11 +20,12 @@
     "dist/typed-re.js"
   ],
   "keywords": [
-    "dom",
-    "qsa",
-    "jquery",
+    "template literal types",
+    "regular expression",
+    "regexp",
+    "re",
+    "capturing groups",
     "typescript",
-    "front-end",
     "lightweight",
     "micro"
   ],
