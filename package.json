@@ -1,6 +1,6 @@
 {
   "name": "typed-re",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Template literal types for regular expression capturing groups",
   "type": "module",
   "module": "dist/typed-re.js",
@@ -17,12 +17,13 @@
   "files": [
     "src/typed-re.ts",
     "dist/typed-re.d.ts",
-    "dist/typed-re.js"
+    "dist/typed-re.js",
+    "dist/typed-re.js.map"
   ],
   "keywords": [
     "template literal types",
     "regular expression",
-    "regexp",
+    "regex",
     "re",
     "capturing groups",
     "typescript",
@@ -41,9 +42,7 @@
   "homepage": "https://github.com/edwinm/typed-re#readme",
   "devDependencies": {
     "tslib": "^2.7.0",
-    "typescript": "^5.6.2"
-  },
-  "dependencies": {
+    "typescript": "^5.6.2",
     "tsx": "^4.19.1"
-  }
+  },
 }
