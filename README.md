@@ -41,6 +41,13 @@ console.log(mailMatch?.groups.username); // OK, will be mark
 // console.log(mailMatch?.groups.host); TYPE ERROR
 ```
 
+## Playground
+
+Try the code above in the TypeScript playground:
+
+[![typed-re date example](assets/ts-playground.svg)](https://www.typescriptlang.org/play/?#code/JYWwDg9gTgLgBAbxAQxgYwBYF84DMoQhwBEMAnmAKYAmAtFJcQNwBQLA9J13ACKqVxKAD2TgANgK5c2aCADsAzvGr8ASgIC8JABQB+ADxlKyKAD4AOueoIALFgCUtPfpDyYGC1YQAmB04MqZJ7WvvbMMvJKcCowlACyqJhwWijoGNrE3gAM3ja0AIxZtN4AHMQANNFqlPasEYoQEgB0YhAA5tox8YkYuk1tBACuYApNgbVwnHAA8gDSbFOyDc2tHV0JaX0DEMOjGDtQEwCiqqrTqmyXUlNHKMBigiLiktf1UXdi6skkAHrOgwpKFA5KJKKYANrIWgALwAgrQAFpFACcTQA+gBSADUtAAulj7AABZzUQjIYByCFQuGIlFNPFYyxNSEw+EI3E+coOAAkxDe8A+GySKR6GRQUAA1oThKIwM1ZCAKnAPupam9GpQWu1tIKelshiMmgCgSCQDUmJN2DN5hwrUsFBqtR1dZt+ga9hAlMdTucgA)
+
+
 ## Usage
 
 ### `match(s, regexp [, flags])`
