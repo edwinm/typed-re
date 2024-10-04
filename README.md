@@ -25,6 +25,8 @@ console.log(dateMatch?.groups.day); // OK, will be 28
 // console.log(dateMatch?.groups.hour); TYPE ERROR
 ```
 
+![typed-re date example](assets/typed-re-date-example.png)
+
 ## Email example
 
 ```typescript
