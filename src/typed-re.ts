@@ -8,7 +8,7 @@ interface RegExpMatchResult<T extends string> {
 }
 
 type Groups<Re extends string> =
-    Re extends `${string}(?<${infer Group}>${string})${infer Rest}`
+    Re extends `${string}(?<${infer Group}>${infer Rest}`
         ? Group | Groups<Rest>
         : never;
 
