@@ -21,6 +21,8 @@
     "dist/typed-re.js.map"
   ],
   "keywords": [
+    "front-end",
+    "backend",
     "template literal types",
     "regular expression",
     "regex",
